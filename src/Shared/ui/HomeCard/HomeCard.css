@@ -1,0 +1,38 @@
+.home-card {
+    max-width: 400px;
+    position: relative;
+}
+
+.home-card__price {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.home-card__img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    position: relative;
+    max-height: 505px;
+}
+
+.home-card__img img {
+    border-radius: 32px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-card__gradient {
+    border-radius: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+    pointer-events: none;
+    z-index: 10;
+}

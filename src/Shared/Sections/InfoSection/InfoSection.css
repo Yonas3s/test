@@ -1,0 +1,30 @@
+.info-section {
+    margin-bottom: 114px;
+    height: 100vh;
+}
+
+.info-section__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-section__title {
+  color: black;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: start;
+}
+
+.info-section__content_text {
+  color: #000;
+  text-align: start;
+  font-size: 32px;
+  line-height: 160%;
+}
+
+.info-section__content_img {
+    width: 100%;
+    margin-right: 80px;
+}
